@@ -1,0 +1,51 @@
+body{
+    background-color: bisque;
+    font-family: 'Courier New', Courier, monospace;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    margin-top: 8%;
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+.removeDec{
+    text-decoration: underline;
+    color: grey;
+}
+
+.centerMe{
+    text-align: center;
+}
+.centerMeWordWrap{
+    word-wrap: break-word;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+div nav ul li a{
+    display: inline-block;
+    margin-right: 10px;
+    list-style: none;
+    font-size: 25px;
+    font-weight: bold;
+}
+ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 5px 10px;
+    flex-wrap: wrap;
+    font-weight: bold;
+}
+.centerTags{
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
